@@ -41,8 +41,3 @@ namespace WeatherSpace {
 
 	void TestHighPrecipitation();
 }
-
-namespace TestWeatherSpace {
-
-	void testForWeatherReport();
-}

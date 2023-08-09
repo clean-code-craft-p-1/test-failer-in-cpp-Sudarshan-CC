@@ -1,5 +1,5 @@
 #pragma once
-#include <assert.h>
+
 
 namespace Misaligned {
 	static const char* majorColor[] = { "White", "Red", "Black", "Yellow", "Violet" };
@@ -8,9 +8,4 @@ namespace Misaligned {
 	int findPair(int majorCol, int minorCol);
 
 	int printColorMap();
-}
-
-namespace TestMisaligned
-{
-	void testForMisalignment();
 }

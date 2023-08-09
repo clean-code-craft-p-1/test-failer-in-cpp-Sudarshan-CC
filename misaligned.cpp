@@ -2,6 +2,7 @@
 #include <string>
 #include "misaligned.h"
 
+
 int Misaligned::findPair(int majorCol, int minorCol)
 {
 	return majorCol * 5 + minorCol;
@@ -19,14 +20,6 @@ int Misaligned::printColorMap()
 }
 
 
-void TestMisaligned::testForMisalignment()
-{
-	int result = Misaligned::printColorMap();
-	assert(Misaligned::findPair(0, 0) == 1);
-	assert(Misaligned::findPair(5, 5) == 25);
-	assert(result == 25);
-	std::cout << "All is well (maybe!)\n";
-}
 
 int main() {
 	TestMisaligned::testForMisalignment();
