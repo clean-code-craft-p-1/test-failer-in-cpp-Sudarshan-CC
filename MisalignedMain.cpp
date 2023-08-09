@@ -1,3 +1,4 @@
+#pragma
 #include "Test.h"
 
 int main() {
