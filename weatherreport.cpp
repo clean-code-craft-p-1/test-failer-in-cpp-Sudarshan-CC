@@ -1,6 +1,6 @@
 #include <iostream>
 #include "weatherreport.h"
-#include "Test.h"
+
 using namespace std;
 
 namespace WeatherSpace
@@ -74,11 +74,4 @@ namespace WeatherSpace
 		report = Report(possiblePrecipitation);
 		assert(report == "Alert, Stormy with heavy rain");
 	}
-}
-
-int main() {
-
-	TestWeatherSpace::testForWeatherReport();
-
-	return 0;
 }

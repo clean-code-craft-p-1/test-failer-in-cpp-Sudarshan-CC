@@ -1,6 +1,5 @@
-#include <iostream>
 #include "Tshirt.h"
-#include "Test.h"
+
 
 char Tshirt::size(int cms)
 {
@@ -17,11 +16,3 @@ char Tshirt::size(int cms)
 	return sizeName;
 }
 
-
-int main() {
-
-	TestTshirts::testforTshirtSizes();
-
-	std::cout << "All is well (maybe!)\n";
-	return 0;
-}

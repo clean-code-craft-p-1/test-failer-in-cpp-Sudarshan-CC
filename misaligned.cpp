@@ -3,6 +3,7 @@
 #include "misaligned.h"
 
 
+
 int Misaligned::findPair(int majorCol, int minorCol)
 {
 	return majorCol * 5 + minorCol;
@@ -20,9 +21,3 @@ int Misaligned::printColorMap()
 }
 
 
-
-int main() {
-	TestMisaligned::testForMisalignment();
-
-	return 0;
-}
