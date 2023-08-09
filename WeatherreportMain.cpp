@@ -1,8 +1,8 @@
-#include "Test.h"
-
-int main() {
-
-	TestWeatherSpace::testForWeatherReport();
-
-	return 0;
-}
+//#include "Test.h"
+//
+//int main() {
+//
+//	TestWeatherSpace::testForWeatherReport();
+//
+//	return 0;
+//}
