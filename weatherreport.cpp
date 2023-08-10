@@ -50,28 +50,4 @@ namespace WeatherSpace
 		return report;
 	}
 
-	void TestRainy()
-	{
-		SensorStub sensor;
-		std::string report = Report(sensor);
-		std::cout << report << std::endl;
-		assert(report.find("rain") != std::string::npos);
-	}
-
-	void TestHighPrecipitation()
-	{
-		// This instance of stub needs to be different-
-		// to give high precipitation (>60) and low wind-speed (<50)
-		SensorStub sensor;
-
-		// strengthen the assert to expose the bug
-		// (function returns Sunny day, it should predict rain)
-		std::string report = Report(sensor);
-		assert(report.length() > 0);
-		assert(report == "Alert, Stormy with heavy rain");
-
-		HighPrecipitationStub possiblePrecipitation;
-		report = Report(possiblePrecipitation);
-		assert(report == "Alert, Stormy with heavy rain");
-	}
 }

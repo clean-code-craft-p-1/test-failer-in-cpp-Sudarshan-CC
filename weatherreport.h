@@ -37,7 +37,5 @@ namespace WeatherSpace {
 
 	std::string Report(const IWeatherSensor& sensor);
 
-	void TestRainy();
-
-	void TestHighPrecipitation();
+	
 }

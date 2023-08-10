@@ -18,3 +18,6 @@ namespace TestMisaligned
 	void testForMisalignment();
 }
 
+void TestRainy();
+
+void TestHighPrecipitation();
